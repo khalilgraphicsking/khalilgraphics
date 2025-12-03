@@ -388,7 +388,7 @@ export default function Home() {
                     <span className="sr-only">Behance</span>
                   </Link>
                   <Link
-                    href="https://wa.me/880153734245"
+                    href="https://wa.me/8801537342454"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center hover:bg-green-700 transition-colors"
@@ -429,7 +429,7 @@ export default function Home() {
                     size="lg"
                     className="w-full bg-green-600 hover:bg-green-700 text-white h-12 text-base"
                   >
-                    <a href="https://wa.me/880153734245" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/8801537342454" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
