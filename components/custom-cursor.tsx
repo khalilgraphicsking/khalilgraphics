@@ -34,14 +34,25 @@ export default function CustomCursor() {
   if (isMobile) return null
 
   return (
-    <motion.div
-      className="fixed top-0 left-0 w-3 h-3 rounded-full bg-blue-500 pointer-events-none z-50"
-      style={{
-        x,
-        y,
-        translateX: "-50%",
-        translateY: "-50%",
-      }}
-    />
+    <>
+      <motion.div
+        className="fixed top-0 left-0 w-6 h-6 rounded-full border-2 border-blue-400 pointer-events-none z-50 mix-blend-screen"
+        style={{
+          x,
+          y,
+          translateX: "-50%",
+          translateY: "-50%",
+        }}
+      />
+      <motion.div
+        className="fixed top-0 left-0 w-2 h-2 rounded-full bg-blue-500 pointer-events-none z-50 mix-blend-screen"
+        style={{
+          x,
+          y,
+          translateX: "-50%",
+          translateY: "-50%",
+        }}
+      />
+    </>
   )
 }

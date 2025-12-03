@@ -8,10 +8,12 @@ import { Button } from "@/components/ui/button"
 import FloatingShapes from "@/components/floating-shapes"
 import ProjectGallery from "@/components/project-gallery"
 import WorkflowProcess from "@/components/workflow-process"
+import CustomCursor from "@/components/custom-cursor"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-800 to-zinc-900 text-zinc-50 cursor-default">
+      <CustomCursor />
       <FloatingShapes />
 
       <header className="fixed top-0 z-50 w-full border-b border-zinc-800 bg-zinc-900/80 backdrop-blur supports-[backdrop-filter]:bg-zinc-900/50">
