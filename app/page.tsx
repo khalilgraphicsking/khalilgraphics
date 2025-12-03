@@ -286,7 +286,7 @@ export default function Home() {
                       src="/images/md-ibrahim-khalil-portrait.png"
                       alt="About Me - MD Ibrahim Khalil"
                       fill
-                      className="object-cover"
+                      className="object-cover scale-110"
                       style={{ objectFit: "cover", objectPosition: "center" }}
                     />
                   </div>
@@ -349,7 +349,7 @@ export default function Home() {
                 Let's discuss your project and create something amazing together.
               </p>
             </motion.div>
-            <div className="grid lg:grid-cols-2 gap-12 max-w-2xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 max-w-4xl mx-auto px-4 md:px-8 lg:px-12">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -417,12 +417,16 @@ export default function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="flex flex-col justify-center gap-6"
+                className="flex flex-col justify-center gap-6 p-4 md:p-8"
               >
-                <div className="p-8 rounded-lg border border-green-600/50 bg-green-900/10 text-center">
-                  <h3 className="text-lg font-bold mb-2">Quick Contact</h3>
-                  <p className="text-zinc-400 mb-6">Message me directly on WhatsApp for faster response</p>
-                  <Button asChild size="lg" className="w-full bg-green-600 hover:bg-green-700">
+                <div className="p-8 md:p-12 rounded-lg border border-green-600/50 bg-green-900/10 text-center space-y-4">
+                  <h3 className="text-lg md:text-xl font-bold">Quick Contact</h3>
+                  <p className="text-zinc-400">Message me directly on WhatsApp for faster response</p>
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full bg-green-600 hover:bg-green-700 text-white h-12 text-base"
+                  >
                     <a href="https://wa.me/880153734245" target="_blank" rel="noopener noreferrer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
